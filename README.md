@@ -1,3 +1,5 @@
+![example workflow](https://github.com/github/docs/actions/workflows/lining_and_type_checking.yml/badge.svg)
+
 # IdeaBox Frontend
 
 Фронтенд для проекта IdeaBox
