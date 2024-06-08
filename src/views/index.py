@@ -1,9 +1,9 @@
 import flet as ft
 
-from idea_box_app import IdeaBoxApp
+from modules.idea_box_app import IdeaBoxApp
 
 
-async def main_page(page: ft.Page):
+async def index_view(page: ft.Page):
     page.title = "IdeaBox"
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.scroll = ft.ScrollMode.ADAPTIVE

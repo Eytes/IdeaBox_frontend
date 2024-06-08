@@ -1,6 +1,6 @@
 import flet as ft
 
-from idea import Idea
+from modules.idea import Idea
 
 
 class IdeaBoxApp(ft.Column):
