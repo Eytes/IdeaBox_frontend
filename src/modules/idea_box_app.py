@@ -81,9 +81,9 @@ class IdeaBoxApp(ft.Column):
         count = 0
         for task in self.tasks.controls:
             task.visible = (
-                    status == "all"
-                    or (status == "active" and task.completed is False)
-                    or (status == "completed" and task.completed)
+                status == "all"
+                or (status == "active" and task.completed is False)
+                or (status == "completed" and task.completed)
             )
             if not task.completed:
                 count += 1
