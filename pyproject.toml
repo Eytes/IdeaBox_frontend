@@ -21,3 +21,17 @@ pytest = "^8.2.2"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+check_untyped_defs = true
+allow_redefinition = true
+disable_error_code = ["import-untyped"]
+
+[tool.flake8]
+max_line_length = 88
+show_source = true
+statistics = true
+exclude = [
+    ".git",
+    "__pycache__"
+]
