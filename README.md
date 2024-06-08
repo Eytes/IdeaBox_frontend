@@ -1,4 +1,4 @@
-![example workflow](https://github.com/eytes/IdeaBox_frontend/actions/workflows/lining_and_type_checking.yml/badge.svg)
+![lining_and_type_checking workflow](https://github.com/eytes/IdeaBox_frontend/actions/workflows/lining_and_type_checking.yml/badge.svg) ![CI workflow](https://github.com/eytes/IdeaBox_frontend/actions/workflows/CI.yml/badge.svg)
 
 # IdeaBox Frontend
 
